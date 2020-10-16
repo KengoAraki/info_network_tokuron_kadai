@@ -197,7 +197,7 @@ class IPAddr(object):
 		if(rnode is not None):
 			for row in self.idx_table:
 				if(row[1] == rnode.value):
-					print(str(addr) + "\tIndex:" + str(row[0]) + ", NetAddr:" + str(row[1]))
+					print(str(addr) + "\tIndex:" + str(row[0]) + ", \tNetAddr:" + str(row[1]))
 
 	def _extract_address(self, addr):
 		_addr = re.split('/', addr)
